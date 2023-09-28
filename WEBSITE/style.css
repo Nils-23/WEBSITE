@@ -1,0 +1,241 @@
+body{
+    position: relative;
+    margin:0;
+    padding:0;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    background: linear-gradient(to left, #6441a5,#2a0845);
+}
+.container{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-spacing: 2px;
+}
+#moon{
+    position: absolute;
+    width: 30px;
+    top:7%;
+    right: 18%;
+    z-index: 99;
+    cursor: pointer;
+}
+#sun{
+  position: absolute;
+width: 30px;
+top:8%;
+right: 15%;
+z-index: 99;
+cursor: pointer;
+display: none;
+}
+.logo{
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  border: 1px solid white;
+  top: -5px;
+  left: -50px;
+  background-color: white;
+  z-index: 99;
+  transform: skew(-20deg);
+}
+.header{
+    position: absolute;
+    top:8%;
+    right: 25%;
+    word-spacing: 80px;
+    font-size: 25px;
+    z-index: 95;
+    cursor: pointer;
+}
+.Item1{
+    position: absolute;
+    width: 80vw;
+    height:15vh ;
+    border: 5px solid black;
+    margin-top: 30px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    font-size: 35px;
+}
+.Item2{
+    position: absolute;
+    width: 80vw;
+    height:30vh ;
+    border: 5px solid black;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    background: transparent;
+    transform: translate(-50%,-50%);
+}
+#label1{
+  position: relative;
+  top: 40px;
+  font-size: 15px;
+}
+.btn1{
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  width: 500px;
+  height: 50px;
+  transform: skew(-20deg);
+  cursor: pointer;
+  border: 1px solid black;
+  
+}
+.btn1:hover{
+  background-color: gray;
+}
+.Item3{
+    position: absolute;
+    width: 80vw;
+    height:10vh ;
+    border: 5px solid black;
+    margin-top: 20px;
+    top: 80%;
+    left: 50%;
+    background: transparent;
+    transform: translate(-50%,-50%);
+}
+.card {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    left: 0px;
+    top: 45%;
+    flex-direction: column;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
